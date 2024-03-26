@@ -1,5 +1,5 @@
 import * as React from "react";
-// import "../styles/sideBar.css";
+import "../styles/sideBar.css";
 // Sidebar.js
 
 function SideBar({show,onClose}) {
@@ -8,17 +8,19 @@ function SideBar({show,onClose}) {
     }
   return (
     
-    <div className="overlay relative z-10 flex flex-col justify-center mx-auto w-full text-4xl font-semibold text-white whitespace-nowrap bg-white max-w-[480px]">
-      <div className="flex flex-col py-9 w-full bg-lightBlue rounded-3xl">
-        <button onClick={onClose} className="self-end mr-10">X</button>
-        <div className="flex flex-col px-11 mt-28">
-          <button onClick={navigateToDashboard} className="pb-6">Your Dashboard</button>
-          <button className="pb-6">Finance Tips</button>
-          <button className="pb-6">Settings</button>
-          <div className="self-center mt-[548px]">BudgetUp</div>
-        </div>
-      </div>
+    <div class="overlay">
+  <div class="overlay-content">
+    <button onClick={onClose} class="close-button">X</button>
+    <div class="menu-items">
+      <ul>
+      <li onClick={navigateToDashboard}>Your Dashboard</li>
+      <li>Finance Tips</li>
+      <li>Settings</li>
+      </ul>
+      <div class="brand-name">BudgetUp</div>
     </div>
+  </div>
+</div>
   );
 }
 

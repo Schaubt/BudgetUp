@@ -1,0 +1,28 @@
+.document {
+    font-weight: bold;
+    background-color: #d3ecdc;
+    overflow: hidden;
+    height:100vh;
+  }
+  
+  .content {
+    display: inline-flex;
+    overflow: hidden;
+    height:100vh;
+  }
+
+  .navbar {
+    position:absolute;
+  }
+
+  /*.bkgd-image {
+    background-image: url('https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */

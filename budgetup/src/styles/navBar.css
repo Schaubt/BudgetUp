@@ -1,0 +1,52 @@
+/*.sidebar-container {
+}
+
+.header {
+    display:inline-flex;
+    align-self: center;
+    padding: 3px;
+}
+
+button {
+    background-color:white;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: 0px;
+    margin:10px;
+    border-style: solid;
+}
+
+.sidebar-button {
+    padding:5px;
+    vertical-align: center;
+}
+
+.brand-name {
+    display: flex;
+    color:white;
+    font-weight: bold;
+    align-self: center;
+}
+
+.menu {
+    align-self: center;
+}
+
+.menu-button {
+}
+
+.menu-button:hover {
+
+}
+  
+.main-content {
+    display:flex;
+    justify-content:space-evenly;
+    background-color: lightblue;
+}*/
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: skyblue;
+}

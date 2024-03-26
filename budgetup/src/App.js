@@ -6,6 +6,7 @@ import Settings from './pages/Settings.js';
 import Home from './pages/Home.js'
 import Sidebar from './components/sideBar.js'
 import Dashboard from './pages/Finance_Dashboard.js'
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
 function App() {
   return (
     <>
