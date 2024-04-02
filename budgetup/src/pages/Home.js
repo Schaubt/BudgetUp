@@ -1,4 +1,4 @@
-import NavBar from '../components/navbar';
+import NavBar from '../components/navBar.js';
 import React,{useState} from "react";
 import Login from '../components/login-component';
 import "../styles/home.css";
