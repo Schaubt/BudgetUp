@@ -1,1 +1,1 @@
-# [BudgetUp](https://budgetup-87ec3.web.app) - A Budgeting app
+# [BudgetUp](https://budgetup-bd585.web.app/) - A Budgeting app
