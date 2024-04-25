@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { saveLogin } from '../firebase.js';
+import { saveLogin, login, logout } from '../firebase.js';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -7,10 +7,10 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted!");
 
     // Call your function to save login details here
-    saveLogin(email, password);
+    //saveLogin(email, password);
+    login(email, password);
   };
     return (
       <>
@@ -57,7 +57,7 @@ export default function Login() {
               <div>
                 <div className="flex items-center justify-between">
                   <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">
-                    Password (WIP: Passwords are stored in plain text for now. Do not use a real password.)
+                    Password
                   </label>
                   <div className="text-sm">
                     <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
