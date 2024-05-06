@@ -16,8 +16,6 @@ function Home() {
         <img
               src="https://images.pexels.com/photos/210600/pexels-photo-210600.jpeg?cs=srgb&dl=pexels-pixabay-210600.jpg&fm=jpg"
               alt="Your Company"
-              max-width="100%"
-              height="auto"
             />
         </div>
       </div>
