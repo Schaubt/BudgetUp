@@ -7,6 +7,7 @@ import Home from './pages/Home.js'
 import Sidebar from './components/sideBar.js'
 import Dashboard from './pages/Finance_Dashboard.js'
 import "./firebase.js";
+import Registeration from './pages/Registration.js'
 
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/sidebar" element={<Sidebar />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/settings" element={<Settings />} />
+      <Route path="/registration" element={<Registeration />} />
       </Routes>
       </Fragment>
     </Router>
