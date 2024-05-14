@@ -15,7 +15,7 @@ export default function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    login(email, password);
+    saveLogin(email, password);
   };
 
   return (
